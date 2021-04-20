@@ -5,8 +5,7 @@
       v-for="newsItem in news"
       v-bind:key="JSON.parse(newsItem.content)._id"
       :newsItem="newsItem"
-    >
-    </NewsListItem>
+    />
   </div>
 </template>
 

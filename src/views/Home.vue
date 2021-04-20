@@ -125,6 +125,7 @@ export default {
         };
       } else {
         this.connection1.close();
+        this.connection1 = null;
       }
     },
     toggleConnection2: function () {
@@ -166,6 +167,7 @@ export default {
         };
       } else {
         this.connection2.close();
+        this.connection2 = null;
       }
     },
     toggleConnection3: function () {
@@ -207,6 +209,7 @@ export default {
         };
       } else {
         this.connection3.close();
+        this.connection3 = null;
       }
     },
     showModal() {
