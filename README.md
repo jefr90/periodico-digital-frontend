@@ -1,24 +1,11 @@
 # frontend
 
-## Project setup
+## Inicializar dependencias de proyecto
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+npm install
 ```
 
-### Compiles and minifies for production
+### Correr el proyecto en modo desarrollo (utilizar este comando luego de inicializar)
 ```
-yarn build
+npm run serve
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
